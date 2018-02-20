@@ -1,0 +1,61 @@
+/*
+ Theme Name:   Newsbuzz Child
+ Theme URI:    xxx
+ Description:  Newsbuzz Child Theme
+ Author:       xxx
+ Author URI:   xxx
+ Template:     newsbuzz
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  newsbuzz
+*/
+
+@import url(../newsbuzz/style.css);
+
+.header-box-white-wrapper-content {
+	padding: 0px
+}
+
+.site-header {
+	top: -70px;
+	padding: 30vh 0;
+	box-shadow: 0px -15px 15px -5px #efefef inset;
+}
+
+.page .container article, .single-post .container article {
+	padding: 0px 20px;
+}
+
+#bwg_container1_0 #bwg_container2_0 .bwg_title_spun2_0 {
+	color: white!important;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.readmore-btn {
+	background-color: #BD9452;
+	color: white;
+}
+
+.readmore-btn, .readmore-btn:active, .readmore-btn:focus, .readmore-btn:hover, .readmore-btn:visited {
+	color: white;
+}
+
+.readmore-btn span:after {
+	background-image: url()
+}
+
+#secondary h4.widget-title {
+	background-color: #BD9452;
+	color: white;
+}
+
+.home .navbar {
+	position: sticky;
+	background-color: rgba(255,255,255, 0.9);
+}
+
+#wpadminbar {
+	position: absolute;
+}
